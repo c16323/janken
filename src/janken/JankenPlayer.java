@@ -20,8 +20,8 @@ class JankenPlayer extends Janken{
         int hand;
         do{    
             System.out.println("出す手を指定するべし(1=グー 2=チョキ 3=パー)");
-            hand = stdIn.nextInt();
-        }while(hand>3 || hand<1);
+            hand = stdIn.nextInt()-1;
+        }while(hand>3 || hand<0);
         return hand;
     };
 }

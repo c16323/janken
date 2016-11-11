@@ -9,7 +9,7 @@ package janken;
  *
  * @author c16323
  */
-public class JankenTester {
+public class JankenTester2{
     public static void main(String[] args){
         JankenPlayer player = new JankenPlayer();
         JankenCPU cpu1 = new JankenCPU();
@@ -31,5 +31,4 @@ public class JankenTester {
         if ((p-c1+3)%3 == 1 || (p-c2+3)%3 == 1)System.out.println("you lose");
         if ((p-c1+3)%3 == 2 || (p-c2+3)%3 == 2)System.out.println("you win");
     }
-    
 }

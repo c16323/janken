@@ -17,7 +17,7 @@ public class JankenCPU extends Janken{
     
     public int play(){
         System.out.println("");
-        int hand = rand.nextInt(2)+1;
+        int hand = rand.nextInt(3);
         return hand;
     };        
 }
